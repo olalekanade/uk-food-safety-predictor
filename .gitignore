@@ -1,0 +1,37 @@
+# Virtual environment
+venv/
+
+# Raw and processed data (large files)
+data/raw/*.parquet
+data/processed/
+
+# Temp files
+data/raw/*_temp.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# Keep outputs and notebooks
+!outputs/*.png
+!outputs/*.html
+!notebooks/
