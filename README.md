@@ -1,5 +1,8 @@
 # UK Food Safety Risk Predictor
 
+**Live demo:** https://uk-food-safety-predictor-keubttcpkepc72qvmaaexb.streamlit.app
+
+
 An open-source machine-learning pipeline that predicts the probability of a UK food business receiving a low hygiene rating (0–2 on the Food Standards Agency scale). The FSA uses proprietary risk-scoring internally to prioritise inspection resources; this project replicates and extends that approach using publicly available data, applying LightGBM with SHAP explainability over the full ~600k establishment dataset.
 
 ---
